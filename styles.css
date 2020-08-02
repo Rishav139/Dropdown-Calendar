@@ -1,0 +1,75 @@
+ p, ul{
+	margin: 0;
+	padding: 0;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+	margin-left: 17rem;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+	margin-left: 2rem;
+}
+
+.show {display: block;}
+
+.group{
+  background: #660000;
+	color: white;
+	padding: .5em .5em 1em;
+	max-width: 22em;
+  height: 13rem;
+	margin: .5em auto;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.pointer {
+  cursor: pointer;
+}
+.center {
+	text-align: center;
+}
+.monthname{
+  width: 16.5em;
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+	width: -webkit-calc(100%/7);
+	float: left;
+	text-align: center;
+  height: 20px;
+	padding: .25em 0;
+	cursor: pointer;
+}
+
+li:hover{
+	color: #3366ff;
+}
+
+.start, .end{
+	margin: 2rem;
+}
